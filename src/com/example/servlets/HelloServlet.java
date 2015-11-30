@@ -98,7 +98,7 @@ public class HelloServlet extends HttpServlet {
 	        trendLon[3]=2.3508;
 	        trendLon[4]=28.9550;
 	        trendLon[5]=-43.17;
-	        request.setAttribute("latitude",latitude);
+	        /*request.setAttribute("latitude",latitude);
 	        request.setAttribute("longitude",longitude);
 	        request.setAttribute("text", text);
 	        request.setAttribute("sentiment",sentiment);
@@ -108,8 +108,8 @@ public class HelloServlet extends HttpServlet {
 	        request.setAttribute("negative", neg_count);
 	        request.setAttribute("trendText", trendText);
 	        request.setAttribute("trendLon", trendLon);
-	        request.setAttribute("trendLat", trendLat);
-	        request.getRequestDispatcher("SentimentMap.jsp").forward(request, response);
+	        request.setAttribute("trendLat", trendLat);*/
+	        request.getRequestDispatcher("Sentiment.jsp").forward(request, response);
 	        
 		
 	        
